@@ -29,3 +29,13 @@ dvc init
 style.css - Make this into a very beautiful website that is related to anime. Use good styling and images you want from web or any other source. Give me external css for this
 
 There are two Dockerfiles, one is for jenkins container, and the Dockerfile in root directory is for project because you have you containerize your whole project
+
+Jenkins is used in an MLOps project to automate the entire machine learning workflow. Instead of manually running commands every time you change your code, Jenkins automatically executes the pipeline.
+CI/CD stands for Continuous Integration and Continuous Delivery (or Continuous Deployment). It is a software development practice that automates building, testing, and deploying applications.
+Jenkins is one of the tools used to implement CI/CD.
+Jenkins is an open-source automation server that automates the building, testing, and deployment of applications as part of a CI/CD pipeline.
+
+Docker is an open-source containerization platform that allows developers to package an application, along with all its dependencies, libraries, and configuration files, into a lightweight, portable, and isolated unit called a container. This ensures the application runs consistently across different environments, from development to production.
+
+Google Kubernetes Engine (GKE) is used to manage, scale, and orchestrate Docker containers.
+If Docker packages your application into containers, GKE runs and manages those containers in production.
