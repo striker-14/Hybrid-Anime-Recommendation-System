@@ -1,0 +1,26 @@
+artifacts - stores output of processes (csv files, models)
+pipeline - list our training pipeline as well as our prediction pipeline
+config - we will be storing our configurations
+__init__.py - to make that directory (folder) into a package
+utils - here we will store our helper functions, common functions
+templates - we store our HTML files
+static - store our css files, javascript files
+notebook - inside this we will be doing our Jupyter Notebook testing
+
+run     pip install e .     this commands automatically identifies your setup.py file and execute it
+
+Set Google Application Credentials in your environment to access your service account and then use that service account to extract data from storage bucket
+
+import os # for path defining we need this library
+
+RAW_DIR = "artifacts/raw" # we need a raw folder inside our artifacts directory and in the raw folder we will be storing all our csv files that we will be getting from our GCP bucket
+
+data = pd.read_csv(file_path,nrows=5000000) # selective data ingestion (only 5m instead of 70m rows)
+
+wordcloud # library for visualization related to text related data
+
+Git will be used for code tracking and DVC will be used for artifacts tracking.
+git init
+dvc init
+
+.gitignore - write all the files that you want git to ignore during pushing your code

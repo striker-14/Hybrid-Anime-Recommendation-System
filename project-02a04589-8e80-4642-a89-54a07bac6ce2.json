@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "project-02a04589-8e80-4642-a89",
+  "private_key_id": "54a07bac6ce2d195af4bb3f772a637abd9ba0ba1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDsER/jZLIqgfdw\ni64eSs2BxfLePf6RpenGDFqs4JUYJ+x5103VPgHi64jcfXPeO6zji2NvssywSB8m\nsLJeKtBIzz3l3gANf9rP5I6S+kCkoVVclxuP6LVLUUcgJFq023+HAA9GueEQ/xOv\nfCHkQja3dLKgqVQs3T4ZxFzQ15Mh8EchQ6UfQtruoum01UdYZvA+yudqbsDBiK6J\nnJmfRqcyd04BQIdER9mTtdh8gNoakCsi4llJfpBC+fvJCDhJUkyMAhZu+JJwGI3y\nhRZYBvryS0DI/3ewwtyZX5/SoBtawsq7RnOwWDdzINBh+VSolfEv1VZTaPRBMiWm\n5yJKT0MZAgMBAAECggEABQdIWpumf+lM0ATprJODVSRWTA2eApQ6KpHQzKXsBxuy\nmdXQPp6Xg7HotGmnsjArOp2ZfKOeYJLotvZElmTrEuH3O5JDBgaXLp57uv3BqsAV\nBWfimmomkngkv7aGiBu017dUm/kRpj8IuFA4mJggej/uHiX9OQdtbzcTkw9EfxCI\nubd/SF6VaiRCLjB8AZDMgdSgbTvhnoM2/tUrwQNt+RhXctJsbuEjnz2ONY2XkZxT\nFmhfH6jTJe0HM7Q8rU/WOsc3+8g5R/Uc3VRUU+tVxzYPYWCBaI8j+nqi+l4p1BNV\ncLmeaqKrgeLn7E+7DTpR9xQEzdKPKPKLUxeGJm9jQQKBgQD6xHvpRG7UA9rUWeQy\nieib/liUUYKjxjC2ZRv3II5iLCwkmKHXtcq8nutiIovKM45Myf7HF+e8dySbtZ+Y\nIdduC3fQOrNIldut42wWsaaS0eV69QthQV8BgoTLpbK760IJxbDbZqB7NjLktuPI\n+cQ2g9IyXrvHNAPUoKRX8vzVlQKBgQDw/h1fdIauBxULXtqsRS1C5gPhyxy8c30a\nPiU0ENdDdhkuslzOICv3ehOMhUWLR9ohVJZFKv802bz2UGTjWruA3W6gnGSik2Fm\nlGFQSr90ISkmBdqjE5lN9KIUipvqZQU+YZXAlc4U5HbCADyKCkIbPZ6rUfNqBkRF\nuLftMOWOdQKBgQCOWBQCQI8smBeSbIhFS9UXH1SGtJIUhv7FujUanYdVIL/Z8i4E\nNTQkx4zTgsqY95Tx78NInkAz0emc3Yb/I06XL7lOINP+AtrVJQAJDcSBGNZLameQ\nSDw2rjDVLHR9iThONcKDeAjmh8hx3YMFZQnE7CTX5MBwfg0imCFRryNn1QKBgDUJ\nR7+VLnqoNlptQqS9CKv7YQlVIPrcU8DtwlRGDIndOMeNG12FuQdax2iaf+aaJohF\nTFjmkIm6DZsLsFhUxIUktk8EfCVHWB0yNIRuHtpY3exvR2GyU3/TgcQRiSS5nMDQ\nyxs6HMN+UCB72tbqUQgbtIqxm2dO/8F0WI4Lv8ltAoGASf0r68RsHokztgt0fSWz\nhRvbSvhZozRPMpSx+iHVbAj99vjAcpSNhi6pF/TmzGDoaAEkWYi7NhiY19tZsWoL\nxaLOrlNaLG7+64ODTo67ASvRJfUoEu/zdRSvTL+dNpwEZKVRZlgFQDyPwXbsz7f9\nicS+2kF4aq7q+qpHS+YLah4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "hybrid-anime-recommender-syste@project-02a04589-8e80-4642-a89.iam.gserviceaccount.com",
+  "client_id": "112004394467454733981",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hybrid-anime-recommender-syste%40project-02a04589-8e80-4642-a89.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

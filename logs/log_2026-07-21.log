@@ -1,0 +1,81 @@
+2026-07-21 00:18:04,997 - INFO - DataProcessing Intialized
+2026-07-21 00:18:06,302 - INFO - Data loaded sucesfully for Data Processing
+2026-07-21 00:18:06,459 - INFO - Filtered users sucesfully...
+2026-07-21 00:18:07,259 - INFO - Scalind done for Processing 
+2026-07-21 00:18:07,363 - INFO - Encoding done for Users and Anime
+2026-07-21 00:18:07,685 - INFO - Data splitted sucesfullyy
+2026-07-21 00:18:07,693 - INFO - user2user_encoded saved sucesfully in processed directory
+2026-07-21 00:18:07,701 - INFO - user2user_decoded saved sucesfully in processed directory
+2026-07-21 00:18:07,725 - INFO - anim2anime_encoded saved sucesfully in processed directory
+2026-07-21 00:18:07,752 - INFO - anim2anime_decoded saved sucesfully in processed directory
+2026-07-21 00:18:11,593 - INFO - ALl the training testing data as well as rating_df is saved now..
+2026-07-21 00:18:24,762 - INFO - DF AND SYNOPSIS_Df saved sucesfullyy...
+2026-07-21 00:18:24,764 - INFO - Data Processing Pipeline Run sucesfully .... Congrats
+2026-07-21 00:25:24,925 - INFO - Model Training & COMET ML initialized..
+2026-07-21 00:25:25,035 - INFO - Data loaded sucesfully for Model Trainig
+2026-07-21 00:25:25,098 - INFO - Succesfully read the YAML file
+2026-07-21 00:25:25,098 - INFO - Loaded configuration from config.yaml
+2026-07-21 00:25:25,202 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-07-21 00:25:25,206 - INFO - Model created sucesfully....
+2026-07-21 00:26:05,542 - INFO - Model training Completedd.....
+2026-07-21 00:26:05,542 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2026-07-21 00:26:05,587 - INFO - Model saved to artifacts/model\model.h5
+2026-07-21 00:26:05,590 - INFO - Extracting weights for user_embedding
+2026-07-21 00:26:05,598 - INFO - Extracting weights for anime_embedding
+2026-07-21 00:26:05,672 - INFO - User and Anime weights saved sucesfully....
+2026-07-21 00:29:05,936 - INFO - Model Training & COMET ML initialized..
+2026-07-21 00:29:05,975 - INFO - Data loaded sucesfully for Model Trainig
+2026-07-21 00:29:05,990 - INFO - Succesfully read the YAML file
+2026-07-21 00:29:05,990 - INFO - Loaded configuration from config.yaml
+2026-07-21 00:29:06,051 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-07-21 00:29:06,054 - INFO - Model created sucesfully....
+2026-07-21 00:29:47,870 - INFO - Model training Completedd.....
+2026-07-21 00:29:47,870 - ERROR - CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2026-07-21 00:40:47,540 - INFO - Model Training & COMET ML initialized..
+2026-07-21 00:40:47,721 - INFO - Data loaded sucesfully for Model Trainig
+2026-07-21 00:40:47,748 - INFO - Succesfully read the YAML file
+2026-07-21 00:40:47,748 - INFO - Loaded configuration from config.yaml
+2026-07-21 00:40:48,260 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-07-21 00:40:48,277 - INFO - Model created sucesfully....
+2026-07-21 00:41:48,627 - INFO - Model training Completedd.....
+2026-07-21 00:41:48,628 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2026-07-21 00:41:48,671 - INFO - Model saved to artifacts/model\model.h5
+2026-07-21 00:41:48,674 - INFO - Extracting weights for user_embedding
+2026-07-21 00:41:48,682 - INFO - Extracting weights for anime_embedding
+2026-07-21 00:41:48,787 - INFO - User and Anime weights saved sucesfully....
+2026-07-21 01:14:54,867 - INFO - DataProcessing Intialized
+2026-07-21 01:14:56,148 - INFO - Data loaded sucesfully for Data Processing
+2026-07-21 01:14:56,325 - INFO - Filtered users sucesfully...
+2026-07-21 01:14:57,085 - INFO - Scalind done for Processing 
+2026-07-21 01:14:57,175 - INFO - Encoding done for Users and Anime
+2026-07-21 01:14:57,510 - INFO - Data splitted sucesfullyy
+2026-07-21 01:14:57,517 - INFO - user2user_encoded saved sucesfully in processed directory
+2026-07-21 01:14:57,524 - INFO - user2user_decoded saved sucesfully in processed directory
+2026-07-21 01:14:57,552 - INFO - anim2anime_encoded saved sucesfully in processed directory
+2026-07-21 01:14:57,577 - INFO - anim2anime_decoded saved sucesfully in processed directory
+2026-07-21 01:15:01,376 - INFO - ALl the training testing data as well as rating_df is saved now..
+2026-07-21 01:15:14,331 - INFO - DF AND SYNOPSIS_Df saved sucesfullyy...
+2026-07-21 01:15:14,333 - INFO - Data Processing Pipeline Run sucesfully .... Congrats
+2026-07-21 01:15:44,381 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='www.comet.com', port=443) at 0x25df498a720>, 'Connection to www.comet.com timed out. (connect timeout=10)')': /clientlib/isAlive/ver
+2026-07-21 01:16:18,414 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='www.comet.com', port=443) at 0x25d800837a0>, 'Connection to www.comet.com timed out. (connect timeout=10)')': /clientlib/isAlive/ver
+2026-07-21 01:16:56,439 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='www.comet.com', port=443) at 0x25d80083bf0>, 'Connection to www.comet.com timed out. (connect timeout=10)')': /clientlib/isAlive/ver
+2026-07-21 01:17:56,758 - WARNING - Retrying (RetryWithFullJitter(total=9, connect=3, read=10, redirect=None, status=4)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='www.comet.com', port=443) at 0x25d806f5df0>, 'Connection to www.comet.com timed out. (connect timeout=10)')': /clientlib/logger/add/run
+2026-07-21 01:18:10,280 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='o168229.ingest.us.sentry.io', port=443) at 0x25d806f6000>, 'Connection to o168229.ingest.us.sentry.io timed out. (connect timeout=30)')': /api/4505505645330432/envelope/
+2026-07-21 01:18:29,498 - WARNING - Retrying (RetryWithFullJitter(total=8, connect=2, read=10, redirect=None, status=4)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='www.comet.com', port=443) at 0x25d806f4e00>, 'Connection to www.comet.com timed out. (connect timeout=10)')': /clientlib/logger/add/run
+2026-07-21 01:19:04,130 - WARNING - Retrying (RetryWithFullJitter(total=7, connect=1, read=10, redirect=None, status=4)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='www.comet.com', port=443) at 0x25d806f7140>, 'Connection to www.comet.com timed out. (connect timeout=10)')': /clientlib/logger/add/run
+2026-07-21 01:20:05,362 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='www.comet.com', port=443) at 0x25d806f7290>, 'Connection to www.comet.com timed out. (connect timeout=10)')': /clientlib/isAlive/ver
+2026-07-21 01:20:39,396 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='www.comet.com', port=443) at 0x25d806f4800>, 'Connection to www.comet.com timed out. (connect timeout=10)')': /clientlib/isAlive/ver
+2026-07-21 01:21:23,780 - INFO - Model Training & COMET ML initialized..
+2026-07-21 01:21:24,068 - INFO - Data loaded sucesfully for Model Trainig
+2026-07-21 01:21:24,588 - INFO - Succesfully read the YAML file
+2026-07-21 01:21:24,588 - INFO - Loaded configuration from config.yaml
+2026-07-21 01:21:24,775 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-07-21 01:21:24,779 - INFO - Model created sucesfully....
+2026-07-21 01:21:40,741 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='www.comet.com', port=443) at 0x25df4a631d0>, 'Connection to www.comet.com timed out. (connect timeout=10)')': /clientlib/status-report/update
+2026-07-21 01:22:14,773 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='www.comet.com', port=443) at 0x25d8190fa10>, 'Connection to www.comet.com timed out. (connect timeout=10)')': /clientlib/status-report/update
+2026-07-21 01:22:19,779 - INFO - Model training Completedd.....
+2026-07-21 01:22:19,779 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2026-07-21 01:22:19,849 - INFO - Model saved to artifacts/model\model.h5
+2026-07-21 01:22:19,854 - INFO - Extracting weights for user_embedding
+2026-07-21 01:22:19,869 - INFO - Extracting weights for anime_embedding
+2026-07-21 01:22:19,994 - INFO - User and Anime weights saved sucesfully....
