@@ -6,6 +6,7 @@ utils - here we will store our helper functions, common functions
 templates - we store our HTML files
 static - store our css files, javascript files
 notebook - inside this we will be doing our Jupyter Notebook testing
+application.py - Flask app
 
 run     pip install e .     this commands automatically identifies your setup.py file and execute it
 
@@ -24,3 +25,5 @@ git init
 dvc init
 
 .gitignore - write all the files that you want git to ignore during pushing your code
+
+style.css - Make this into a very beautiful website that is related to anime. Use good styling and images you want from web or any other source. Give me external css for this

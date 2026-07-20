@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hybrid Anime Recommendation System</title>
+
+    <link rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="overlay"></div>
+
+    <div class="content">
+
+        <div class="glass-card">
+
+            <div class="logo">
+                <i class="fa-solid fa-dragon"></i>
+                <span>HYBRID</span>
+            </div>
+
+            <h1>
+                Anime
+                <span>Recommendation</span>
+            </h1>
+
+            <p>
+                Discover personalized anime recommendations using our
+                Hybrid AI Recommendation Engine.
+            </p>
+
+            <form action="/" method="POST">
+
+                <div class="input-box">
+
+                    <i class="fa-solid fa-user"></i>
+
+                    <input
+                        type="number"
+                        name="userID"
+                        placeholder="Enter User ID"
+                        required>
+
+                </div>
+
+                <button type="submit">
+
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+                    Get Recommendations
+
+                </button>
+
+            </form>
+
+            {% if recommendations %}
+
+            <div class="recommendations">
+
+                <h2>Recommended Anime</h2>
+
+                <ul>
+
+                    {% for anime in recommendations %}
+
+                    <li>
+
+                        <i class="fa-solid fa-star"></i>
+
+                        {{ anime }}
+
+                    </li>
+
+                    {% endfor %}
+
+                </ul>
+
+            </div>
+
+            {% endif %}
+
+        </div>
+
+    </div>
+
+</body>
