@@ -27,3 +27,5 @@ dvc init
 .gitignore - write all the files that you want git to ignore during pushing your code
 
 style.css - Make this into a very beautiful website that is related to anime. Use good styling and images you want from web or any other source. Give me external css for this
+
+There are two Dockerfiles, one is for jenkins container, and the Dockerfile in root directory is for project because you have you containerize your whole project
