@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: ml-app-container
-        image: gcr.io/project-02a04589-8e80-4642-a89/ml-project2:latest
+        image: gcr.io/project-02a04589-8e80-4642-a89/ml-project:latest
         ports:
         - containerPort: 5000  # Replace with the port your app listens on
 ---
